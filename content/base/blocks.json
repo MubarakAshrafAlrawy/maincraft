@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "blocks": [
+    {
+      "id": 0,
+      "name": "Air",
+      "textures": {},
+      "transparent": true,
+      "passable": true,
+      "replaceable": true,
+      "hardness": 0.0
+    },
+    {
+      "id": 1,
+      "name": "Dirt",
+      "textures": { "all": "dirt" },
+      "hardness": 0.5,
+      "tool": "shovel"
+    },
+    {
+      "id": 2,
+      "name": "Grass",
+      "textures": { "top": "grass_top", "bottom": "dirt", "side": "grass_side" },
+      "hardness": 0.6,
+      "tool": "shovel",
+      "drops": "Dirt"
+    },
+    {
+      "id": 3,
+      "name": "Stone",
+      "textures": { "all": "stone" },
+      "hardness": 1.5,
+      "tool": "pickaxe",
+      "tier": "wood"
+    },
+    {
+      "id": 4,
+      "name": "Log",
+      "textures": { "top": "log_top", "bottom": "log_top", "side": "log_side" },
+      "hardness": 2.0,
+      "tool": "axe"
+    },
+    {
+      "id": 5,
+      "name": "Leaf",
+      "textures": { "all": "leaf" },
+      "transparent": true,
+      "hardness": 0.2
+    },
+    {
+      "id": 6,
+      "name": "Pine_Leaf",
+      "textures": { "all": "pine_leaf" },
+      "transparent": true,
+      "hardness": 0.2
+    },
+    {
+      "id": 7,
+      "name": "Snow",
+      "textures": { "top": "snow_top", "bottom": "dirt", "side": "snow_side" },
+      "hardness": 0.1,
+      "tool": "shovel"
+    },
+    {
+      "id": 8,
+      "name": "Sand",
+      "textures": { "all": "sand" },
+      "hardness": 0.5,
+      "tool": "shovel"
+    },
+    {
+      "id": 9,
+      "name": "Cactus",
+      "textures": { "all": "cactus" },
+      "hardness": 0.4
+    },
+    {
+      "id": 10,
+      "name": "Tall_Grass",
+      "textures": { "only": "tall_grass" },
+      "transparent": true,
+      "passable": true,
+      "flat": true,
+      "replaceable": true,
+      "hardness": 0.0
+    },
+    {
+      "id": 11,
+      "name": "Flower",
+      "textures": { "only": "flower" },
+      "transparent": true,
+      "passable": true,
+      "flat": true,
+      "replaceable": true,
+      "hardness": 0.0
+    },
+    {
+      "id": 12,
+      "name": "Shrub",
+      "textures": { "only": "shrub" },
+      "transparent": true,
+      "passable": true,
+      "flat": true,
+      "replaceable": true,
+      "hardness": 0.0
+    },
+    {
+      "id": 13,
+      "name": "Wood",
+      "textures": { "all": "wood" },
+      "hardness": 2.0,
+      "tool": "axe"
+    },
+    {
+      "id": 14,
+      "name": "Brick",
+      "textures": { "all": "brick" },
+      "hardness": 2.0,
+      "tool": "pickaxe",
+      "tier": "wood"
+    },
+    {
+      "id": 15,
+      "name": "Gravel",
+      "textures": { "all": "gravel" },
+      "hardness": 0.6,
+      "tool": "shovel"
+    },
+    {
+      "id": 16,
+      "name": "Dirt_Path",
+      "textures": { "top": "path_top", "bottom": "dirt", "side": "dirt" },
+      "hardness": 0.6,
+      "tool": "shovel",
+      "drops": "Dirt"
+    },
+    {
+      "id": 17,
+      "name": "Farmland",
+      "textures": { "top": "farmland_top", "bottom": "dirt", "side": "dirt" },
+      "hardness": 0.6,
+      "tool": "shovel",
+      "drops": "Dirt"
+    },
+    {
+      "id": 18,
+      "name": "Dug_Soil",
+      "textures": { "top": "dug_soil_top", "bottom": "dirt", "side": "dirt" },
+      "hardness": 0.5,
+      "tool": "shovel",
+      "drops": "Dirt"
+    }
+  ]
+}

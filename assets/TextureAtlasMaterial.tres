@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://clbsth8qwblcq"]
+
+[ext_resource type="Texture2D" path="res://assets/TextureAtlas.tres" id="1"]
+
+[resource]
+albedo_texture = ExtResource("1")
+transparency = 2
+alpha_scissor_threshold = 0.5
